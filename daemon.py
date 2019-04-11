@@ -6,7 +6,7 @@ import graphitesend
 
 import chirp
 
-graphitesend.init(graphite_server="192.168.1.3", prefix="i2c.chirp")
+graphitesend.init(graphite_server="monitoring.local.yawk.at", prefix="i2c.chirp")
 
 sensor = chirp.Chirp()
 
